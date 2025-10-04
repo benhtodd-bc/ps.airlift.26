@@ -5,18 +5,39 @@
     <title>Links to Local Files with Download</title>
     <style>
         body {
-            background-color: #009953;
+            background-color: #0091da;
             font-family: Arial, sans-serif;
             color: #ffffff;
-            margin: 20px;
+            margin: 0;
+        }
+        .banner {
+            background-color: #717074;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff; /* fallback text color if needed */
+             height: auto; /* let the height be determined by the image */
         }
         h1 {
             text-align: center;
+            margin-top: 20px;
         }
         table {
-            width: 100%;
+            width: 90%;
             border-collapse: collapse;
             background-color: rgba(255, 255, 255, 0.2);
+            margin: 20px auto;
+        }
+        caption {
+            caption-side: top;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
         }
         th, td {
             border: 1px solid #ffffff;
@@ -33,28 +54,156 @@
     </style>
 </head>
 <body>
-    <h1>File Links</h1>
+    <div class="banner">
+    <img src="images/banner.jpg" style="width:100%; height:auto; display:block;">
+</div>
+<div class="banner"> VCF Professional Services Enablement Training
+
+
+</div>
     <table>
+        <caption>Hands-On Labs Account Setup Instruction</caption>
+        
         <tr>
-            <th>File Name</th>
-            <th>Link</th>
+          <td><a href="Registration and Setup guide for VMware HOL access.pdf" target="_blank">Download PDF</a></td>
+        </tr>
+
+    </table>  
+
+    <!-- Lab Manuals Table -->
+    <table>
+        <caption>Lab Manuals</caption>
+        <tr>
+            <th>HOL SKU</th>
+            <th>Lab Description</th>
             <th>Download</th>
         </tr>
+        <!-- Example entries, replace paths accordingly -->
         <tr>
-            <td>Document1.pdf</td>
-            <td><a href="path/to/Document1.pdf" target="_blank">Open Document1.pdf</a></td>
-            <td><a href="path/to/Document1.pdf" download>Download</a></td>
+            <td>HOL-2601-01-VCF-L</td>
+            <td> Getting Started with VCF Operations</td>
+            <td><a href="lab-manuals/HOL-2601-01-VCF-L-Getting.Started.with.VCF.Operations.pdf" target="_blank">Download PDF</a></td>
+            
         </tr>
         <tr>
-            <td>Image1.png</td>
-            <td><a href="path/to/Image1.png" target="_blank">Open Image1.png</a></td>
-            <td><a href="path/to/Image1.png" download>Download</a></td>
+            <td>HOL-2601-03-VCF-L</td>
+            <td>Visualizing the Private Cloud using Dashboards, Views, and Reports in VCF Operations</td>
+            <td><a href="lab-manuals/HOL-2601-03-VCF-L-Visualizing the Private Cloud using Dashboards, Views, and Reports in VCF Operations.pdf" target="_blank">Download PDF</a></td>
+            
+        </tr>
+
+        <tr>
+            <td>HOL-2601-06-VCF-L</td>
+            <td>VMware Cloud Foundation 9.0 - Operations- Analyzing Logs, Metrics, and Network Flows</td>
+            <td><a href="lab-manuals/HOL-2601-06-VCF-L-VMware Cloud Foundation 9.0 - Operations- Analyzing Logs, Metrics, and Network Flows.pdf" target="_blank">Download PDF</a></td>
+            
+        </tr>
+
+        <tr>
+            <td>HOL-2636-01-VCF-L</td>
+            <td>Managing Kubernetes and Cloud Services on VMware Cloud Foundation</td>
+            <td><a href="lab-manuals/HOL-2636-01-VCF-L-v2.pdf" target="_blank">Download PDF</a></td>
         </tr>
         <tr>
-            <td>Notes.txt</td>
-            <td><a href="path/to/Notes.txt" target="_blank">Open Notes.txt</a></td>
-            <td><a href="path/to/Notes.txt" download>Download</a></td>
-        </tr>
+            <td>HOL-2601-19-VCF-L</td>
+            <td>Cost Optimization, Showback and Chargeback Using VCF Operations</td>
+            <td><a href="lab-manuals/HOL-2601-19-VCF-L-Cost Optimization, Showback and Chargeback Using VCF Operations.pdf" target="_blank">Download PDF</a></td>
+          </tr>
+        <tr>
+            <td>HOL-2601-09-VCF-L</td>
+            <td>Monitoring Network and Storage Operations In the Private Cloud Using VCF Operations</td>
+            <td><a href="lab-manuals/HOL-2601-09-VCF-L-Monitoring Network and Storage Operations In the Private Cloud Using VCF Operations.pdf" target="_blank">Download PDF</a></td>
+          </tr>
+        <tr>
+            <td>HOL-2601-11-VCF-L</td>
+            <td>Monitoring Private Cloud Infrastructure with VCF Health and Diagnostics Using VCF Operations</td>
+            <td><a href="lab-manuals/HOL-2601-11-VCF-L-Monitoring Private Cloud Infrastructure with VCF Health and Diagnostics Using VCF Operations.pdf" target="_blank">Download PDF</a></td>
+          </tr>
+
     </table>
-</body>
-</html>
+    
+    <!-- iSim Table -->
+    <table>
+        <caption>iSim</caption>
+        <tr>
+            <th>Lab</th>
+            <th>Download</th>
+        </tr>
+        <!-- Example entries, replace paths accordingly -->
+
+        <tr>
+            <td>End-to-End-VCF52-VCF90-with-Manual</td>
+            <td><a href="isims/End-to-End-VCF52-VCF90-with-Manual.html" target="_blank">Download</a> </td>
+        </tr>
+        
+        <tr>
+            <td>VCF 9.0 Deploy VCF Fleet iSIM</td>
+            <td><a href="isims/VCF 9.0 Deploy VCF Fleet iSIM.html" target="_blank">Download</a></td>
+            
+        </tr>
+        
+        <tr>
+            <td>End-to-End-vSphere-w-AriaLCM-Upgrade-to-VCF9-with-Manual</td>
+            <td><a href="isims/End-to-End-vSphere-w-AriaLCM-Upgrade-to-VCF9-with-Manual.html" target="_blank">Download</a></td>
+            
+        </tr>
+        
+        <tr>
+            <td>VCF 9.0 Licensing iSIM</td>
+            <td><a href="isims/VCF 9.0 Licensing iSIM.html" target="_blank">Download</a></td>
+        
+        </tr>
+  
+  
+    </table>
+    
+    
+     <!-- Slide Decks Table -->
+    <table>
+        <caption>Decks</caption>
+        <tr>
+            <th>Day</th>
+            <th>Filename</th>
+            <th>Download</th>
+        </tr>
+        <!-- Example entries, replace paths accordingly -->
+        <tr>
+            <td>Day 1</td>
+            <td>Partner PS Enablement Training_Week of Sept 29</td>
+            <td><a href="decks/Day 1 Session Presentations-selected/Partner PS Enablement Training_Week of Sept 29.pdf" target="_blank">Download PDF</a></td>
+        </tr>
+        <tr>
+            <td>Day 1</td>
+            <td>VCF 9 - What_s New Technical - v67 - FINAL</td>
+            <td><a href="decks/Day 1 Session Presentations-selected/VCF 9 - What_s New Technical - v67 - FINAL.pdf" download>Download PDF</a></td>
+        </tr>
+        <tr>
+            <td>Day 2-4</td>
+            <td>Cloud Consumption Experience Declarative-Endstate</td>
+            <td><a href="decks/Day 2 - 4 Session Presentations-selected/Cloud.Consumption.Experience.Declarative.Endstate.pdf" download>Download PDF</a></td>
+        </tr>
+        <tr>
+            <td>Day 2-4</td>
+            <td>VCF 9.0 Troubleshooting</td>
+            <td><a href="decks/Day 2 - 4 Session Presentations-selected/VCF 9.0 Troubleshooting.pdf" download>Download PDF</a></td>
+        </tr>
+         <tr>
+            <td>Day 2-4</td>
+            <td>VCF Operations All - Slide Deck with Talk Track - Partner Airlift</td>
+            <td><a href="decks/Day 2 - 4 Session Presentations-selected/VCF Operations All - Slide Deck with Talk Track - Partner Airlift.pdf" download>Download PDF</a></td>
+        </tr>
+         <tr>
+            <td>Day 2-4</td>
+            <td>VCF Partner Airlift - Upgrade Pathways to VCF 9</td>
+            <td><a href="decks/Day 2 - 4 Session Presentations-selected/VCF Partner Airlift - Upgrade Pathways to VCF 9.pdf" download>Download PDF</a></td>
+        </tr>
+        <tr>
+          <td>Day 5</td>
+          <td>Certification VCP-VCF Admin Architect Combo Deck 2025 (9.0)</td>
+          <td><a href="decks/Day 5/Certification VCP-VCF Admin Architect Combo Deck 2025 (9.0).pdf" download>Download PDF</a></td>
+        </tr>  
+
+    </table>
+
+    <p> <a href="https://ent.box.com/s/1bbxq3bhhkqy8mbyln1kl6krv9mw2qkv">BOX FOLDER URL</a>
+    </p>
