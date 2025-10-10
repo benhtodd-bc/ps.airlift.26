@@ -25,6 +25,19 @@
         }
         .theader {
             background-color: #717074;
+            text-align: center; 
+        }
+        .theader-bc {
+          background-color: #CC092F;
+            text-align: center; 
+        }
+        .theader-bc-l {
+          background-color: #CC092F;
+            text-align: left; 
+        }
+        .theaderl {
+            background-color: #717074;
+            text-align: left; 
         }
         .truno{
             background-color: #5cc4ca;
@@ -81,28 +94,53 @@
 
     <table>
           <caption>Lab URLs</caption>
-            <tr class="theader">
-              <td colspan="3"></td>
+         <!--     <tr class="theader">
+              <td colspan="3">Clearwater Florida - October 5-10 2025</td>
             
             </tr>
-          <tr class="trduo">
+         <tr class="trduo">
               <td><a href="https://request.hol.vmware.com/landing-pages/346" target="_blank">WED: Click Here For the Main Labs Landing Page</a></td>
               <td><a href="https://request.hol.vmware.com/landing-pages/392" target="_blank">THURS-FRI: Click Here For the Main Labs Landing Page</a></td>
               <td><a href="https://request.hol.vmware.com/landing-pages/388" target="_blank">Click Here for the Odysey Labs Landing Page</a></td>
           </tr>
+          -->
+          <tr class="theader-bc">
+              <td colspan="3">Broadcom Knights - Lisbon Oct 13-17 2025</td>
+            
+          </tr>
+          <tr class="trduo">
+              <td colspan="3"><a href="https://request.hol.vmware.com/landing-pages/387" target="_blank">Click Here For the Main Labs Landing Page</a></td>
+          </tr>
+<!--  
+         <tr class="theader-bc">
+              <td colspan="3">Sydney Oct 20-123 2025</td>
+            
+          </tr>
+          <tr class="trduo">
+              <td colspan="3"><a href="https://request.hol.vmware.com/landing-pages/387" target="_blank">Click Here For the Main Labs Landing Page</a></td>
+          </tr>
+        -->
 
     </table>
 
     <!-- Lab Manuals Table -->
     <table>
-        <caption>Lab Manuals</caption>
-        <tr class="theader">
+        <caption>Lab Topics And The Corresponding Manuals</caption>
+        
+        <tr>
+          <td class="theader-bc-l" colspan="4">VCF Operations</td>
+        </tr> 
+        <tr>
+            <td colspan="4" class="trduo theaderl">The training on VCF Operations covered various topics including Dashboarding, Reporting, and Policies. The extensive labs, based on HOL-2601-01-VCF-L, allow you to choose which labs to complete due to time constraints, and you can take the lab manuals with you to finish any others later by deploying the base HOL from the <a href="https://www.vmware.com/resources/hands-on-labs" target="_blank" >HOL Labs Site</a></td>
+         </tr>
+        <tr class="theader-bc">
             <th>Day</th>
             <th>HOL SKU</th>
             <th>Lab Description</th>
             <th>Download</th>
         </tr>
-        <!-- Example entries, replace paths accordingly -->
+       
+        
         <tr class="truno">
             <td>Day 2 - Operations</td>
             <td>HOL-2601-01-VCF-L</td>
@@ -142,15 +180,21 @@
             <td>Monitoring Private Cloud Infrastructure with VCF Health and Diagnostics Using VCF Operations</td>
             <td><a href="lab-manuals/HOL.2601.01/Monitoring.Private.Cloud.Infrastructure.with.VCF.Health.and.Diagnostics.Using.VCF.Operations.pdf" target="_blank">Download</a></td>
           </tr>
-
-            <tr class="truno">
+          <!-- Upgrades -->
+          <tr>
+            <td class="theader-bc-l" colspan="4">VCF Upgrades</td>
+          </tr> 
+          <tr>
+            <td colspan="4" class="trduo theaderl">As you might imagine, a live technical lab that would provide you with multiple upgrade paths in their entirety with not be feasible considering the time time we have with you. So we are providing Simulations to walk you through different upgrade scenarios.</td>
+          </tr>
+          <tr class="truno">
             <td>Day 2 - Upgrades</td>
             <td>Upgrade - Sims</td>
-            <td>End-to-End-VCF52-VCF90-with-Manual</td>
+            <td>End to End VCF 5.2 VCF 9</td>
             <td><a href="isims/End-to-End-VCF52-VCF90-with-Manual.html" target="_blank">Download</a> </td>
-        </tr>
+          </tr>
         
-        <tr class="trduo">
+          <tr class="trduo">
             <td>Day 2 - Upgrades</td>
             <td>Upgrade - Sims</td>
             <td>VCF 9.0 Deploy VCF Fleet iSIM</td>
@@ -160,7 +204,7 @@
         <tr class="truno">
             <td>Day 2 - Upgrades</td>
             <td>Upgrade - Sims</td>
-            <td>End-to-End-vSphere-w-AriaLCM-Upgrade-to-VCF9-with-Manual</td>
+            <td>End to End vSphere with AriaLCM Upgrade to VCF 9</td>
             <td><a href="isims/End-to-End-vSphere-w-AriaLCM-Upgrade-to-VCF9-with-Manual.html" target="_blank">Download</a></td>
         </tr>
         
@@ -176,6 +220,12 @@
             <td>VMware Cloud Foundation Operations HCX Advanced</td>
             <td><a href="./lab-manuals/HOL.2608.05/VMware.Cloud.Foundation.Operations.HCX.Advanced.pdf" target="_blank">Download</a></td>
         </tr>
+
+          <tr>
+            <td class="theader-bc-l" colspan="4">vSphere Supervisor</td>
+          </tr> 
+        
+
          <tr class="trduo">
             <td>Day 4 - Supervisor</td>
             <td>HOL-2636-01-VCF-L</td>
@@ -184,15 +234,15 @@
         </tr>
     </table>
     
-     <!-- Slide Decks Table -->
+    <!-- Slide Decks Table -->
     <table>
         <caption>Decks</caption>
-        <tr class="theader">
+        <tr class="theader-bc">
             <th>Day</th>
             <th>Filename</th>
             <th>Download</th>
         </tr>
-        <!-- Example entries, replace paths accordingly -->
+      
         <tr class="truno">
             <td>Day 1</td>
             <td>Partner PS Enablement Training Week</td>
@@ -203,16 +253,31 @@
             <td>VCF 9 - What's New Technical</td>
             <td><a href="decks/Day.1/VCF.9-Whats.New.Technical.pdf" target="_blank">Download</a></td>
         </tr>
-         <tr class="theader">
+         <tr class="theader-bc">
             <th>Day</th>
             <th>Filename</th>
             <th>Download</th>
         </tr>
+        <!-- Alasdair's Stuff-->
+        <tr class="truno">
+            <td>Day 2-4</td>
+            <td>VCF 9 Design Blueprints</td>
+            <td><a href="decks/Day.2-4/Module.1-VCF.9.Design.Blueprints.pdf" target="_blank">Download</a></td>
+        </tr>
+        <tr class="trduo">
+            <td>Day 2-4</td>
+            <td>Highly Available Management Domain</td>
+            <td><a href="decks/Day.2-4/Module.2-Highly.Available.Management.Domain.pdf" target="_blank">Download</a></td>
+        </tr>
+
+        <!-- Ben's Stuff-->
         <tr class="truno">
             <td>Day 2-4</td>
             <td>Cloud Consumption Experience Declarative-Endstate</td>
             <td><a href="decks/Day.2-4/Cloud.Consumption.Experience.Declarative.Endstate.pdf" target="_blank">Download</a></td>
         </tr>
+
+        <!-- ??-->
         <tr class="trduo">
             <td>Day 2-4</td>
             <td>VCF 9.0 Troubleshooting</td>
@@ -264,7 +329,7 @@
             <td>VCF Partner Airlift - Upgrade Pathways to VCF 9</td>
             <td><a href="decks/Day.2-4/VCF.Partner.Airlift-Upgrade.Pathways .to.VCF.9.pdf" target="_blank">Download</a></td>
         </tr>
-         <tr class="theader">
+         <tr class="theader-bc">
             <th>Day</th>
             <th>Filename</th>
             <th>Download</th>
