@@ -1,0 +1,55 @@
+tenant: livefire
+location: misc
+region: AMER
+className: daleksandrov-test
+classSku: daleksandrov-test
+status: COMPLETE
+enabled: true
+timezone: Europe/Sofia
+startDateUtc: "2026-04-21T06:00:00Z"
+endDateUtc: "2026-04-23T14:00:00Z"
+numberOfSeats: 2
+studentTokenMode: launchOnly
+skipProvisioning: false
+
+exported:
+  launchUrl: "https://labplatform.broadcom.com/livefire/instructor/86044"
+  studentLaunchUrl: "https://labplatform.broadcom.com/livefire/catalogs?studentToken=q2phemy"
+  ltiParameter: class=daleksandrov-test
+  entitlementStatus: Provisioned
+  entitlementsCreated: true
+  entitlementsEnabled: true
+  preProvisionEnabled: true
+  resourcesProvisioned: true
+  dateCreated: "2026-04-21T05:43:15Z"
+  lastUpdated: "2026-04-23T14:00:59Z"
+
+instructors:
+  []
+owners:
+  - Deyan Aleksandrov - Broadcom
+students:
+  - Konstantin Nikolov
+labs:
+  - Activate - PS Airlift - VCF Advanced Cloud Services
+
+bulkUpload:
+  description: 
+  notes: 
+  enabled: true
+  preProvisionPeriod: "0.0:1:0"
+  labDisplayName: Activate - PS Airlift - VCF Advanced Cloud Services
+  labSku: ATE-PSAirlift-VCF901-VKS-S3
+  numberOfSeats: 2
+  instructorEmails:
+    []
+  ownerEmails:
+    - deyan.aleksandrov@broadcom.com
+  students: []
+  classTimeZoneName: Europe/Sofia
+  studentTokenMode: launchOnly
+  videoConferenceType:
+  videoConferenceMeetingId:
+  videoConferencePassword:
+  preferredCloudLocation: 
+  skipProvisioning: false

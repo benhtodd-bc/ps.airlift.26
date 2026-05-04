@@ -1,0 +1,104 @@
+tenant: livefire
+location: orlando
+region: AMER
+className: ATE-PSAirlift-Orlando-Storage
+classSku: ate-psairlift-orlando-storage-test_copy
+status: PENDING
+enabled: true
+timezone: EST
+startDateUtc: "2026-05-06T13:00:00Z"
+endDateUtc: "2026-05-08T01:00:00Z"
+numberOfSeats: 44
+studentTokenMode: autoAdd
+skipProvisioning: false
+
+exported:
+  launchUrl: "https://labplatform.broadcom.com/livefire/instructor/86204"
+  studentLaunchUrl: "https://labplatform.broadcom.com/livefire/catalogs?studentToken=5trtuk9"
+  ltiParameter: class=ate-psairlift-orlando-storage-test_copy
+  entitlementStatus: Not Created
+  entitlementsCreated: false
+  entitlementsEnabled: false
+  preProvisionEnabled: true
+  resourcesProvisioned: false
+  dateCreated: "2026-04-28T00:09:39Z"
+  lastUpdated: "2026-04-28T00:09:39Z"
+
+instructors:
+  - Alasdair Carnie
+  - Andy Beltz
+  - Benjamin Todd
+  - Brian Watrous
+owners:
+  - Benjamin Todd
+students:
+  - Alexander Chang
+  - Adrian Johnson
+  - Anthony Haushalter
+  - Alan Harrington
+  - aleeyee aleeyee
+  - Aymane Mansouri
+  - Brandon Quantz
+  - Brendan Marklin
+  - Brendan McKendry
+  - Brian Princer
+  - Christopher Hoffman
+  - Chris Sterner
+  - Daniel Stadelmann
+  - Dario Dörflinger
+  - David Streitman
+  - Diana Moya
+  - Eric Northcraft
+  - Ethan Palmer
+  - George Laberis
+  - Harshen Shah
+  - Jeff Scott
+  - Joseph Stottmann
+  - Kathleen Orben Hall
+  - Kyle Batey
+  - Mandeep Singh
+  - Manny Torres
+  - Marco Mastrocola
+  - Marcos Costa
+  - Michael Code
+  - Mike Forbes
+  - Mike Zealy
+  - Nicholas Duff
+  - Rao Singamneni
+  - Robert Lyons
+  - Rodney Kerley
+  - Sidi Ouedraogo
+  - Steve Kronebusch
+  - William Atencio
+  - thomas jabczanka
+  - Tim Bittenbender
+  - Ulises Becerro
+  - Vitor Andrade
+  - Wagner Bandeira
+  - William Alonso
+labs:
+  - Activate - PS Airlift - VCF Storage
+
+bulkUpload:
+  description: ATE2026-PS Airlift
+  notes: 
+  enabled: true
+  preProvisionPeriod: "0.0:1:0"
+  labDisplayName: Activate - PS Airlift - VCF Storage
+  labSku: ATE-PSAirlift-iSIMSbHere
+  numberOfSeats: 44
+  instructorEmails:
+    - alasdair.carnie@broadcom.com
+    - andy.beltz@broadcom.com
+    - benjamin.todd@broadcom.com
+    - brian.watrous@broadcom.com
+  ownerEmails:
+    - benjamin.todd@broadcom.com
+  students: []
+  classTimeZoneName: EST
+  studentTokenMode: autoAdd
+  videoConferenceType:
+  videoConferenceMeetingId:
+  videoConferencePassword:
+  preferredCloudLocation: 
+  skipProvisioning: false

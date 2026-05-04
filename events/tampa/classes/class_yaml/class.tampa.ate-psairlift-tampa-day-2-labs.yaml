@@ -1,0 +1,60 @@
+tenant: livefire
+location: tampa
+region: AMER
+className: ATE-PSAirlift-Tampa-Day 2 Labs
+classSku: ate-psairlift-tampa-day-2-labs
+status: PENDING
+enabled: true
+timezone: EST
+startDateUtc: "2026-05-06T13:00:00Z"
+endDateUtc: "2026-05-08T01:00:00Z"
+numberOfSeats: 44
+studentTokenMode: autoAdd
+skipProvisioning: false
+
+exported:
+  launchUrl: "https://labplatform.broadcom.com/livefire/instructor/86231"
+  studentLaunchUrl: "https://labplatform.broadcom.com/livefire/catalogs?studentToken=q1wozmz"
+  ltiParameter: class=ate-psairlift-tampa-day-2-labs
+  entitlementStatus: Not Created
+  entitlementsCreated: false
+  entitlementsEnabled: false
+  preProvisionEnabled: true
+  resourcesProvisioned: false
+  dateCreated: "2026-05-02T00:05:51Z"
+  lastUpdated: "2026-05-04T15:23:07Z"
+
+instructors:
+  - Alasdair Carnie
+  - Andy Beltz
+  - Benjamin Todd
+  - Brian Watrous
+owners:
+  - Benjamin Todd
+students: []
+labs:
+  - Activate - PS Airlift - VCF Storage
+
+bulkUpload:
+  description: ATE2026-PS Airlift
+  notes: 
+  enabled: true
+  preProvisionPeriod: "0.0:1:0"
+  labDisplayName: Activate - PS Airlift - VCF Storage
+  labSku: ATE-PSAirlift-iSIMSbHere
+  numberOfSeats: 44
+  instructorEmails:
+    - alasdair.carnie@broadcom.com
+    - andy.beltz@broadcom.com
+    - benjamin.todd@broadcom.com
+    - brian.watrous@broadcom.com
+  ownerEmails:
+    - benjamin.todd@broadcom.com
+  students: []
+  classTimeZoneName: EST
+  studentTokenMode: autoAdd
+  videoConferenceType:
+  videoConferenceMeetingId:
+  videoConferencePassword:
+  preferredCloudLocation: 
+  skipProvisioning: false

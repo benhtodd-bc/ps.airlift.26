@@ -1,0 +1,64 @@
+tenant: livefire
+location: tampa
+region: AMER
+className: ATE-PSAirlift-Tampa
+classSku: ate-psairlift-tampa-auto
+status: PENDING
+enabled: true
+timezone: EST
+startDateUtc: "2026-05-06T13:00:00Z"
+endDateUtc: "2026-05-08T01:00:00Z"
+numberOfSeats: 70
+studentTokenMode: autoAdd
+skipProvisioning: false
+
+exported:
+  launchUrl: "https://labplatform.broadcom.com/livefire/instructor/86201"
+  studentLaunchUrl: "https://labplatform.broadcom.com/livefire/catalogs?studentToken=ophy5e0"
+  ltiParameter: class=ate-psairlift-tampa-auto
+  entitlementStatus: Not Created
+  entitlementsCreated: false
+  entitlementsEnabled: false
+  preProvisionEnabled: true
+  resourcesProvisioned: false
+  dateCreated: "2026-04-28T00:00:10Z"
+  lastUpdated: "2026-05-04T19:30:27Z"
+
+instructors:
+  - Alasdair Carnie
+  - Andy Beltz
+  - Bal Birdy
+  - Benjamin Todd
+  - Brian Watrous
+  - Erica Miles
+owners:
+  - Benjamin Todd
+students: []
+labs:
+  - Activate - PS Airlift -  VCF Automation
+
+bulkUpload:
+  description: ATE2026-PS Airlift
+  notes: 
+  enabled: true
+  preProvisionPeriod: "0.0:1:0"
+  labDisplayName: Activate - PS Airlift -  VCF Automation
+  labSku: ATE-PSAirlift-VCF901-Auto-S3
+  numberOfSeats: 70
+  instructorEmails:
+    - alasdair.carnie@broadcom.com
+    - andy.beltz@broadcom.com
+    - bal.birdy@broadcom.com
+    - benjamin.todd@broadcom.com
+    - brian.watrous@broadcom.com
+    - erica.miles@broadcom.com
+  ownerEmails:
+    - benjamin.todd@broadcom.com
+  students: []
+  classTimeZoneName: EST
+  studentTokenMode: autoAdd
+  videoConferenceType:
+  videoConferenceMeetingId:
+  videoConferencePassword:
+  preferredCloudLocation: 
+  skipProvisioning: false

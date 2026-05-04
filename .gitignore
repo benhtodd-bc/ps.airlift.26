@@ -1,1 +1,13 @@
+.DS_Store
 .DS_store
+
+# Large event assets stay local unless deliberately tracked.
+decks/
+images/
+isims/
+lab-manuals/
+labmanuals/
+
+# Generated or attendee-specific files.
+*.csv
+*.log
